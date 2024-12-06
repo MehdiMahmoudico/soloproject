@@ -1,0 +1,97 @@
+.reservations-container {
+    padding: 20px;
+    max-width: 95%; /* Increased width for better fit */
+    margin: auto;
+}
+
+.reservations-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 80vh; /* Prevent overflow on large tables */
+    overflow-y: auto; /* Enable scrolling for large content */
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.message {
+    color: red;
+    text-align: center;
+}
+
+.reservations-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.reservations-table th,
+.reservations-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.reservations-table th {
+    background-color: #4caf50;
+    color: white;
+}
+
+.reservations-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.reservations-table tr:hover {
+    background-color: #ddd;
+}
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b;
+  }
+  .filter-section {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .filter-select,
+  .filter-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .sortable-header {
+    cursor: pointer;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    width: 100%; 
+}
+
+
+.sort-arrow {
+    font-size: 25px;
+    transition: transform 0.3s ease;
+    color: #ffffff; 
+}
+.sort-arrow.asc {
+    transform: rotate(180deg);
+}
+.sort-arrow.desc {
+    transform: rotate(0);
+}

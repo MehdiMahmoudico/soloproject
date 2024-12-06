@@ -1,0 +1,51 @@
+/* Slider Custom Styles */
+.carousel-inner {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    height: 400px; /* Adjust the height of the image */
+    border-radius: 15px; /* Rounded corners */
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 2rem; /* Larger font size for titles */
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem;
+    color: #fff;
+    opacity: 0.8;
+  }
+  
+  /* Hover effect on captions */
+  .carousel-item:hover .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker overlay on hover */
+  }
+  
+  /* Carousel control buttons */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.5); /* White with some transparency */
+    border-radius: 50%; /* Round buttons */
+    width: 40px;
+    height: 40px;
+  }
+  
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Lighter on hover */
+  }
+  

@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "server.custom.tomcat.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'server.custom.tomcat.enabled'"
+  },
+  {
+    "name": "server.servlet.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'server.servlet.enabled'"
+  },
+  {
+    "name": "server.servlet.container",
+    "type": "java.lang.String",
+    "description": "A description for 'server.servlet.container'"
+  }
+]}

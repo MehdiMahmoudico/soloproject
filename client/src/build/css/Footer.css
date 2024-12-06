@@ -1,0 +1,73 @@
+/* Footer Styles */
+.footer {
+    background: #005f6a;
+    color: #333333;
+    padding: 15px 0; /* Reduced padding to make the footer shorter */
+    position: relative;
+    width: 100%;
+    box-shadow: 0 -8px 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+    flex-shrink: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-item {
+    text-align: center;
+    margin: 10px; /* Reduced margin to make the items closer */
+    color: rgb(255, 255, 255);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-item:hover {
+    transform: scale(1.1);
+    color: #1abc9c;
+}
+
+.footer p {
+    margin: 5px 0; /* Reduced margin between paragraphs */
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgba(255, 235, 205, 0.637);
+}
+
+.language-selector {
+    padding: 8px 12px; /* Reduced padding to make the button smaller */
+    background: #1abc9c;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: #333333;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.language-selector:hover {
+    background: #16a085;
+    transform: scale(1.05);
+}
+
+.language-selector:focus {
+    outline: none;
+    box-shadow: 0 0 5px #1abc9c;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    
+    .footer-item {
+        margin: 8px 0; /* Adjusted margin for smaller screen sizes */
+    }
+}

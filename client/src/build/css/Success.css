@@ -1,0 +1,43 @@
+.success-page {
+    background: linear-gradient(135deg, #d4fc79, #96e6a1); /* Green gradient background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .success-box {
+    background: #ffffff; /* White card */
+    border: 2px solid #28a745; /* Success green border */
+    border-radius: 15px;
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon1 {
+    color: #28a745; /* Success green */
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 0.5rem;
+  }
+  
